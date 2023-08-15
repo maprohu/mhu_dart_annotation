@@ -89,9 +89,13 @@ class GenericFeature<K, I, O> {
 }
 
 class Cst {
-  const Cst();
+  final int keyParamCount;
+
+  const Cst({
+    this.keyParamCount = 1,
+  });
 }
 
-class Lookup {
-  const Lookup();
-}
+// class Lookup {
+//   const Lookup();
+// }
