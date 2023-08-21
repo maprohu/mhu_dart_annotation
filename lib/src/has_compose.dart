@@ -11,3 +11,8 @@ class HasDefault {
 
   const HasDefault(this.value);
 }
+
+
+class Ext {
+  const Ext();
+}
