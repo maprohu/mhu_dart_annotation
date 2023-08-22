@@ -12,7 +12,12 @@ class HasDefault {
   const HasDefault(this.value);
 }
 
-
 class Ext {
-  const Ext();
+  final bool has;
+
+  const Ext({
+    this.has = false,
+  });
 }
+
+const extHas = Ext(has: true);
