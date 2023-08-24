@@ -20,4 +20,5 @@ class Ext {
   });
 }
 
+const ext = Ext();
 const extHas = Ext(has: true);
