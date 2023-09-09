@@ -22,3 +22,7 @@ class Ext {
 
 const ext = Ext();
 const extHas = Ext(has: true);
+
+class HasOf<T> {
+  const HasOf();
+}
